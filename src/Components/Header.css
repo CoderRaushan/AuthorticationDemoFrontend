@@ -1,0 +1,36 @@
+/* Header.css */
+.navbar {
+  background-color: rgb(14, 14, 108);
+  min-height: 60px;
+}
+
+.navbar-brand,
+.nav-link,
+.offcanvas-title {
+  color: white !important;
+}
+/* 
+.navbar-toggler-icon {
+  background-color: white !important;
+} */
+
+
+/* Offcanvas-specific styling for mobile */
+@media (max-width: 768px) {
+  .offcanvas,
+  .offcanvas .offcanvas-body,
+  .offcanvas .offcanvas-header {
+    background-color: rgb(14, 14, 108) !important;
+  }
+
+  .offcanvas-title, .nav-link {
+    color: white !important;
+  }
+}
+
+/* Button styling */
+
+/* Search bar styling */
+.navbar .form-control {
+  color: black; /* Keep input text color black */
+}
