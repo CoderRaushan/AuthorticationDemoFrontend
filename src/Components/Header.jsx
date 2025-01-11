@@ -21,7 +21,7 @@ const Header = () => {
     axios
       .post(
         // "https://backendmern-5yke.onrender.com/user/logout"
-        "http://localhost:8243/user/logout"
+        "https://authorticationdemobackend.onrender.com/user/logout"
         ,
         {},
         { withCredentials: true }
