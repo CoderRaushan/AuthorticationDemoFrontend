@@ -32,8 +32,7 @@ const Register = () => {
     if (photo) formData.append("photo", photo);
     try { 
       const response = await axios.post(
-        // "https://backendmern-5yke.onrender.com/user/register"
-        "http://localhost:8243/user/register"
+        "https://authorticationdemobackend.onrender.com/user/register"
         ,
         formData,
         {
